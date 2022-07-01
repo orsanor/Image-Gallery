@@ -6,6 +6,10 @@ header{
     justify-content: center;
 }
 
+.menu{
+    justify-content: space-between;
+}
+
 .menu li{
     display: inline-block;
 }
@@ -18,8 +22,6 @@ color: white;
 text-transform: uppercase;
 padding: 6px 6px;
 border-radius: 15px;
-
-
 }
 
 .menu li a:hover{
@@ -28,10 +30,10 @@ border-radius: 15px;
 }
 
 .logo-texto{
-    padding-left: 30%;
     font-family: serif;
     font-style: normal;
     color: white;
+    padding-left: 56%;
 }
 
 body {
@@ -66,14 +68,16 @@ body {
    cursor: pointer;
 }
 
-.galleryImg:hover{
-
+.card-hover {
     transform: translate(-2px);
-    box-shadow: 3px 3px 10px rgb(207, 25, 25);
+    box-shadow: 3px 3px 10px rgb(46, 46, 46);
 }
 
-    .logo{
+.logo{
     height: 45px;
+    padding-left: 35%;
+    margin-top: 5%;
+    
 }
 
 footer {
@@ -87,7 +91,21 @@ footer {
     font-size: 0.8vw;
 }
 
+.name{
+   font-family: sans-serif;
+   font-size: 1vw;
+   text-align: center;
+   margin-top: 1%;
 
+}
+
+.descri{
+    font-family: sans-serif;
+   font-size: 0.8vw;
+   text-align: center;
+
+
+}
 
 
 
